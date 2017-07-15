@@ -20,6 +20,10 @@ function addColor() {
     if($(this).css("background-color")== "rgba(0, 0, 0, 0)"){
       $(this).css("background-color",getRandomColor());
     }
+/*    else {
+      var newColor = incrementColor($(this).css("background-color"));
+      $(this).css("background-color",newColor);
+    }*/
   });
 }
 
@@ -68,4 +72,8 @@ function getRandomColor() {
   var green = Math.floor(Math.random()*256);
   var color = "rgb(" + red + ", " + blue + ", " + green + ")";
   return color;
+}
+
+function incrementColor() {
+
 }
