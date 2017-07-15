@@ -1,5 +1,14 @@
+body {
+  font-size: 0;
+}
+
 #container {
   border: solid black;
-  width: 480px;
+  width: 800px;
   margin: 0 auto;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
 }
